@@ -17,4 +17,4 @@ class guitars:
             return False
 
     def __str__(self):
-        print("{self.name} {self.year} : {self.cost}".format(self=self))
+        return print("{self.name} {self.year} : {self.cost}".format(self=self))
